@@ -4,7 +4,7 @@
     --botao-azul: #167bf7;
     --cor-fundo: #00030c;
     --fonte-principal: 'Inter';
-    --
+    --botao-azul-efeito: #3c92fa ;
 }
 
 body {
@@ -148,5 +148,10 @@ body {
 
 .lista__link a:active {
     color: purple;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--cor-fundo);
 }
 
